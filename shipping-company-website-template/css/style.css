@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #ff9d09;
+    --primary: #0d2535; /* Botões Service */
     --secondary: #51CFED;
     --light: #F8F2F0;
     --dark: #060315;
@@ -17,7 +17,6 @@
     bottom: 45px;
     z-index: 99;
 }
-
 
 /*** Spinner ***/
 #spinner {
@@ -219,14 +218,13 @@
 }
 
 .page-header {
-    background: linear-gradient(rgba(6, 3, 21, .5), rgba(6, 3, 21, .5)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(6, 3, 21, .5), rgba(6, 3, 21, .5)), url(../img/Navio-04.jpg) center center no-repeat;
     background-size: cover;
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
     color: var(--light);
 }
-
 
 /*** About ***/
 @media (min-width: 992px) {
@@ -251,7 +249,6 @@
     }
 }
 
-
 /*** Feature ***/
 @media (min-width: 992px) {
     .container.feature {
@@ -274,7 +271,6 @@
         padding-left: calc(((100% - 1320px) / 2) + .75rem);
     }
 }
-
 
 /*** Service, Price & Team ***/
 .service-item,
@@ -391,7 +387,6 @@
     border-color: var(--primary);
 }
 
-
 /*** Contact ***/
 @media (min-width: 992px) {
     .container.contact-page {
@@ -414,7 +409,6 @@
         padding-left: calc(((100% - 1320px) / 2) + .75rem);
     }
 }
-
 
 /*** Footer ***/
 .footer {
